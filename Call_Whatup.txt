@@ -1,0 +1,21 @@
+
+<!--Whatsapp-->
+
+<div class="whatsapp">
+    <a href="https://api.whatsapp.com/send?phone=
++91 99402 87385   &amp;text=Hello this is the starting message" target="_blank">
+        <img src="whatsapp-ws.gif" alt=" " title="WS" height="50px" style=" border-radius: 29px; ">
+    </a>
+    </div>
+
+
+
+
+<!--Call-->
+
+<div class="call">
+    <a href="tel:
++91 99402 87385  " target="_blank">
+        <img src="call.gif" alt=" " title="WS" height="80px">
+    </a>
+    </div>

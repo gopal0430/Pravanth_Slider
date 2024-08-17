@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    height: 500px; /* Set height for vertical slider */
+    margin: auto; /* Center the slider */
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    transition: transform 0.5s ease-in-out;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+}
+
+.slide {
+    height: 100%; /* Full height for each slide */
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    display: block;
+}
+
+button {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 1.5em;
+    border-radius: 3px;
+}
+
+.prev {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.next {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    button {
+        font-size: 1.2em;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+        font-size: 1em;
+        padding: 5px;
+    }
+}
