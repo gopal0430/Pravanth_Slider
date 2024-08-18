@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Css/maharaja.css">
+    <title>Bootstrap Navigation Menu</title>
+    <style>
+        body {
+            scroll-behavior: smooth; /* Smooth scrolling */
+        }
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none; /* Hidden by default */
+            z-index: 1000;
+        }
+        .scroll-to-top.show {
+            display: block; /* Show when scrolled down */
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.2rem; /* Increase font size of menu items */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto"> <!-- Use ms-auto here -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#recipes">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#enquiry">Enquiry</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shops">Shops/Dealers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Content Sections -->
+<div class="container mt-5">
+    <div id="home" style="height: 600px;">
+        <h2>Home</h2>
+        <p>Welcome to our website!</p>
+    </div>
+    <div id="products" style="height: 600px;">
+        <h2>Products</h2>
+        <section data-vc-full-width="true" data-vc-full-width-init="true" class="vc_section" style="position: relative; left: -25px; box-sizing: border-box; width: 794px; padding-left: 25px; padding-right: 25px;"><div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding" style="position: relative; left: -25px; box-sizing: border-box; width: 794px;">
+            <div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1633526342335"><div class="wpb_wrapper">
+            <div class="wpb_single_image wpb_content_element vc_align_left   sub-banner">
+                
+                <figure class="wpb_wrapper vc_figure">
+                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img fetchpriority="high" decoding="async" width="1640" height="425" src="https://www.maharajarice.com/wp-content/uploads/2021/10/product-banner.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://www.maharajarice.com/wp-content/uploads/2021/10/product-banner.jpg 1640w, https://www.maharajarice.com/wp-content/uploads/2021/10/product-banner-300x78.jpg 300w, https://www.maharajarice.com/wp-content/uploads/2021/10/product-banner-1024x265.jpg 1024w, https://www.maharajarice.com/wp-content/uploads/2021/10/product-banner-768x199.jpg 768w, https://www.maharajarice.com/wp-content/uploads/2021/10/product-banner-1536x398.jpg 1536w, https://www.maharajarice.com/wp-content/uploads/2021/10/product-banner-1440x373.jpg 1440w, https://www.maharajarice.com/wp-content/uploads/2021/10/product-banner-100x26.jpg 100w, https://www.maharajarice.com/wp-content/uploads/2021/10/product-banner-600x155.jpg 600w" sizes="(max-width: 1640px) 100vw, 1640px"></div>
+                </figure>
+            </div>
+        </div></div></div>	</div>
+        
+        <div class="vc_row-full-width vc_clearfix"></div>
+        
+        </section>
+        <p>Explore our range of products.</p>
+    </div>
+    <div id="recipes" style="height: 600px;">
+        <h2>Recipes</h2>
+        <p>Delicious recipes for you to try.</p>
+    </div>
+    <div id="enquiry" style="height: 600px;">
+        <h2>Enquiry</h2>
+        <p>Have questions? Reach out to us!</p>
+    </div>
+    <div id="contact" style="height: 600px;">
+        <h2>Contact Us</h2>
+        <p>Contact information goes here.</p>
+    </div>
+    <div id="gallery" style="height: 600px;">
+        <h2>Gallery</h2>
+        <p>Check out our gallery.</p>
+    </div>
+    <div id="shops" style="height: 600px;">
+        <h2>Shops/Dealers</h2>
+        <p>Find our shops and dealers.</p>
+    </div>
+    <div id="about" style="height: 600px;">
+        <h2>About Us</h2>
+        <p>Learn more about us.</p>
+    </div>
+</div>
+
+<!-- Scroll to Top Button -->
+<button class="btn btn-primary scroll-to-top" id="scrollToTopBtn" title="Scroll to Top">
+    ↑
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Show the button when scrolled down
+    window.onscroll = function() {
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            scrollToTopBtn.classList.add('show');
+        } else {
+            scrollToTopBtn.classList.remove('show');
+        }
+    };
+
+    // Scroll to top function
+    document.getElementById('scrollToTopBtn').onclick = function() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    };
+</script>
+
+</body>
+</html>

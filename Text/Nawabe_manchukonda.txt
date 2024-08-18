@@ -1,3 +1,5 @@
+<!-- /.wa__popup_chat_box -->
+
 <div class="wa__btn_popup wa__active">
     <div class="wa__btn_popup_txt">Need Help? <strong>Chat with us</strong></div>
     <div class="wa__btn_popup_icon"></div>
