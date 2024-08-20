@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open slider.html",
-            "file": "e:\\Project\\Pravanth_Slider\\slider.html"
+            "name": "Open Navigation Menu",
+            "file": "e:\\Project\\Pravanth_Slider\\Pages\\Navigation_Menu.html"
         }
     ]
 }
